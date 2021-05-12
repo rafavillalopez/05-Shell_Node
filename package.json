@@ -4,9 +4,13 @@
   "description": "",
   "main": "bash.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon bash.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  }
 }
